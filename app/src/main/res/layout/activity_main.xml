@@ -4,27 +4,21 @@
     android:id="@+id/lin_lay"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:gravity="center"
     android:background="@drawable/back"
     tools:context="com.example.lap_shop.myapplication.MainActivity">
 
-    <!--<LinearLayout-->
-        <!--android:background="@drawable/background"-->
-        <!--android:id="@+id/wight"-->
-        <!--android:layout_width="wrap_content"-->
-        <!--android:layout_height="wrap_content"-->
-        <!--android:gravity="center"-->
-        <!--android:orientation="horizontal"-->
-        <!--android:rotation="45">-->
 
-        <!--<TextView-->
-            <!--android:id="@+id/text"-->
-            <!--android:layout_width="wrap_content"-->
-            <!--android:layout_height="wrap_content"-->
-            <!--android:rotation="-45"-->
-            <!--android:text="JarMessages"-->
-            <!--android:textColor="#fff" />-->
-    <!--</LinearLayout>-->
+
+        <TextView
+            android:textStyle="bold"
+            android:id="@+id/text"
+            android:gravity="center"
+            android:textSize="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/app_name"
+            android:textColor="#fff" />
+
 
 
 </RelativeLayout>
