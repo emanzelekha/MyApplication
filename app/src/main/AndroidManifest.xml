@@ -17,7 +17,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".Message_home.Home"></activity>
+        <activity android:name=".Message_home.Home"
+            ></activity>
     </application>
 
 </manifest>
