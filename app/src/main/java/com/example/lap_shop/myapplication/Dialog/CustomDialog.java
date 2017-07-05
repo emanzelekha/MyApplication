@@ -4,6 +4,7 @@ import android.app.Activity;
 import android.app.Dialog;
 import android.content.Context;
 import android.graphics.Bitmap;
+import android.graphics.Typeface;
 import android.graphics.drawable.ColorDrawable;
 import android.view.View;
 import android.view.ViewGroup;
@@ -13,9 +14,9 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.example.lap_shop.myapplication.R;
-import com.github.siyamed.shapeimageview.HeartImageView;
 
-import java.io.File;
+
+
 
 public class CustomDialog extends Dialog {
 
@@ -33,7 +34,7 @@ public class CustomDialog extends Dialog {
         getWindow().getAttributes().windowAnimations = R.style.PauseDialogAnimation;
 
         messageTextView = (TextView) findViewById(R.id.dialog_message_textView);
-
+        messageTextView.  setTypeface(Typeface.createFromAsset(activity.getApplicationContext().getAssets(), "normal.ttf"));
         messageTextView.setText(message);
         findViewById(R.id.dialog).setOnClickListener(new View.OnClickListener() {
             @Override

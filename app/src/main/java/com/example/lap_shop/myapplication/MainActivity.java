@@ -1,5 +1,6 @@
 package com.example.lap_shop.myapplication;
 
+
 import android.content.Intent;
 import android.graphics.Point;
 import android.support.v7.app.AppCompatActivity;
@@ -12,6 +13,7 @@ import android.widget.RelativeLayout;
 import android.widget.TextView;
 
 import com.example.lap_shop.myapplication.Activity.Home;
+
 
 
 public class MainActivity extends AppCompatActivity {
@@ -84,6 +86,10 @@ public class MainActivity extends AppCompatActivity {
         splashTread.start();
 
     }
+
+
+
+
 //    public String getHeght(){
 //        Display display = getWindowManager().getDefaultDisplay();
 //        Point size = new Point();
