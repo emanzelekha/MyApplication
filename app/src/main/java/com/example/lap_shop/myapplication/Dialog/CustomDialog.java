@@ -26,6 +26,7 @@ public class CustomDialog extends Dialog {
     public CustomDialog(Activity activity, String message) {
         super(activity);
 
+
         setContentView(R.layout.dialog);
         getWindow().setBackgroundDrawable(new ColorDrawable(android.graphics.Color.TRANSPARENT));
         getWindow().setLayout(ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.WRAP_CONTENT);
